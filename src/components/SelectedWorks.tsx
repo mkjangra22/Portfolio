@@ -13,7 +13,7 @@ const PROJECTS: Project[] = [
     colSpan: "md:col-span-7",
     description: "All-in-one campus platform for students to manage attendance, lecture schedules, assignments, results, eventts, marketplace, and student community interactions with smart assistant support and real-time updates.",
     role: "AI and Developer",
-    tech: "React • Node.js • AI/LLM Assistant",
+    tech: "Python, LLM APIs, HTML & CSS, Firebase",
     client: "University Campus Management (Prototype)",
   },
   {
@@ -24,8 +24,8 @@ const PROJECTS: Project[] = [
     aspectRatio: "md:aspect-[5/4]",
     colSpan: "md:col-span-5",
     description: "Attendance management system that uses face recognition to automatically detect and mark student attendance with real-time monitoring, secure data handling, and reduced manual effort.",
-    role: "ML & Computer Vision Engineer",
-    tech: "Python • Face Recognition",
+    role: "ML Engineer and Developer",
+    tech: "Python, Face Recognition, Firebase, HTML & CSS",
     client: "Attendance Automation Prototype (Internal)",
   },
   {
@@ -37,7 +37,7 @@ const PROJECTS: Project[] = [
     colSpan: "md:col-span-5",
     description: "A cricket data analysis and visualization system to analyze player and match statistics.",
     role: "Data Analyst / Visualization Developer",
-    tech: "Python • Pandas • Matplotlib/Seaborn • Interactive Dashboard",
+    tech: "Python, Pandas, Matplotlib",
     client: "Sports Analytics (Personal Project)",
   },
   {
