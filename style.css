@@ -46,12 +46,18 @@ html, body{
     font-weight: 645;
     color: rgba(0, 0, 0, 0.849);
 }
+#intro h2{
+    font-size: 90px;
+    line-height: 140px;
+    letter-spacing: -7px;
+    font-weight: 645;
+    color: rgba(0, 0, 0, 0.849);
+}
 
 #down{
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    padding-top: 25px;
     font-size: 28px;
 }
 #pic{
@@ -66,7 +72,7 @@ html, body{
     object-fit: cover;
 }
 #about{
-    height: 67%;
+    height: 30%;
     width: 100%;
     background-color: whitesmoke;
     padding: 50px;
@@ -75,8 +81,8 @@ html, body{
     justify-content: space-between;
 }
 #about h2{
-    font-size: 60px;
-    line-height: 100px;
+    font-size: 30px;
+    line-height: 50px;
     font-weight: 650;
     padding-right: 20px;
     color: rgba(0, 0, 0, 0.849);
@@ -111,15 +117,24 @@ html, body{
 #w1{
     height: 100%;
     width: 36%;
-    font-size: 35px;
-    font-weight: 600;
-    letter-spacing: -2px;
+    
     padding:50px 60px;
     border-right: 3px solid black;
     display: flex;
     align-items: start;
     justify-content: space-between;
 }
+#w1 p{
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+#w1 i{
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+
 #w2{
     height: 100%;
     width: 64%;
