@@ -91,7 +91,7 @@ html, body{
     width: 45%;
     height: 100%;
     font-size: 40px;
-    color: rgba(0, 0, 0, 0.853);
+    color: rgb(0, 0, 0);
     border-left: 3px solid black;
     padding: 20px;
     padding-left: 30px;
@@ -100,12 +100,14 @@ html, body{
     align-items: start;
     justify-content: space-between;
 }
-#about2 i{
+#icon{
     font-size: 40px;
     margin-right: 7px;
+    
 }
-#about2 a{
+a{
     color: black;
+    text-decoration: none;
 }
 #work{
     width: 100%;
@@ -117,22 +119,59 @@ html, body{
 #w1{
     height: 100%;
     width: 36%;
-    
-    padding:50px 60px;
     border-right: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+#w11{
+    height: 100%;
+    width: 100%;
+    padding-left:40px;
+    padding-right:60px;
+    padding-top:20px;
+    padding-bottom:10px;
     display: flex;
     align-items: start;
     justify-content: space-between;
 }
-#w1 p{
+#w12{
+    height: 100%;
+    width: 100%;
+    padding-left:40px;
+    padding-right:40px;
+    padding-bottom:60px;
+    line-height: 40px;
+}
+#w11 p{
     font-size: 40px;
     font-weight: 600;
     letter-spacing: -2px;
 }
-#w1 i{
+#w11 i{
     font-size: 60px;
     font-weight: 600;
     letter-spacing: -2px;
+}
+#w12 p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#w12{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+#w1 h2{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -2px;
+    
 }
 
 #w2{
@@ -141,13 +180,13 @@ html, body{
     background-color: whitesmoke;
 }
 #work h2{
-    font-size: 45px;
+    font-size: 25px;
     font-weight: 600;
 }
 #work h4{
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
 }
 #w21{
     height: 50%;
@@ -158,12 +197,12 @@ html, body{
 }
 #w211{
     border-right: 2px solid black;
-    padding: 50px 60px;
+    padding: 20px 40px;
     height: 100%;
     width: 50%;
 }
 #w212{
-    padding: 50px 60px;
+    padding: 20px 40px;
     height: 100%;
     width: 50%;
 }
@@ -177,12 +216,12 @@ html, body{
 }
 #w221{
     border-right: 2px solid black;
-    padding: 50px 60px;
+    padding: 20px 40px;
     height: 100%;
     width: 50%;
 }
 #w222{
-    padding: 50px 60px;
+    padding: 20px 40px;
     height: 100%;
     width: 50%;
 }
